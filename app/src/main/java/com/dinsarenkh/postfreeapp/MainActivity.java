@@ -70,8 +70,8 @@ public class MainActivity extends BaseActivity implements PostView {
     }
 
     @Override
-    public void onSuccess(String message) {
-        showMessage(message);
+    public void onSuccess(Object message) {
+        showMessage((String) message);
     }
 
     @Override
